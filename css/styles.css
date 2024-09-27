@@ -1,6 +1,6 @@
-@import url(/UdacityBlog/css/header.css);
-@import url(/UdacityBlog/css/footer.css);
-@import url(/UdacityBlog/css/main.css);
+@import url(./header.css);
+@import url(./footer.css);
+@import url(./main.css);
 
 body {
   display: grid;
