@@ -1,0 +1,47 @@
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  .logo {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+  }
+  li {
+    padding: 5px;
+  }
+  li:hover {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:visited {
+    color: #1e1e1e;
+  }
+  .account-button {
+    width: 75px;
+    height: 30px;
+    background-color: #e3e3e3;
+    border: 1px solid #767676;
+    border-radius: 5px;
+  }
+  .account-button:hover {
+    background-color: #2c2c2c;
+    border: 1px solid #2c2c2c;
+    color: #f5f5f5;
+    cursor: pointer;
+  }
